@@ -1,0 +1,16 @@
+body{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 2%;
+    background-color: gainsboro;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: black;
+    text-align: center;
+}

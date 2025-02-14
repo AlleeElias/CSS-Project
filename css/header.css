@@ -9,6 +9,7 @@ header{
     top: 0;
     font-size: large;
     padding-bottom: 5px;
+    max-height: 25px;
 }
 .headertitle{
     color: black;

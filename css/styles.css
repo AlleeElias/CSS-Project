@@ -17,3 +17,28 @@ footer{
     color: black;
     text-align: center;
 }
+.articlegrid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+}
+section{
+    margin: 15px;
+    background-color: azure;
+    border-radius: 15;
+}
+.fullcol{
+    grid-column: 1 / -1;
+}
+.gitknop{
+    text-decoration: none;
+    color: black;
+}
+.gitknop:hover{
+    background-color: red;
+    color: white;    
+    transition-duration: 1s;
+    border-radius: 5px;
+    transform: scale(5.0);
+    font-size: larger;
+}

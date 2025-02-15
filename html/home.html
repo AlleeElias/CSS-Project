@@ -17,8 +17,28 @@
     </header>
     <body>
         <h1>Welkom</h1>
-        <button onclick="doeIets()" id="actieknop">Doe iets</button>
-        <div id="actiediv">Hier komt iets</div>
+        <article class="articlegrid">
+            <section>
+                <h2>Doel</h2>
+                <p>
+                    Het doel van deze website is het maken van een dynamische webapp door enkel gebruik te maken van HTML, CSS en JavaScript.
+                </p>
+            </section>
+            <section>
+                <h2>Een voorbeeld van een simpele JavaScript knop</h2>
+                <button onclick="doeIets()" id="actieknop">Doe iets</button>
+                <p id="actiediv">Hier komt iets</p>
+            </section>
+            <section>
+                <h2>Links</h2>
+                <p>Je kan meer ontdekken door volgende links te bezoeken!</p>
+            </section>
+            <section class="fullcol">
+                <p>
+                    Bedankt voor het bezoeken van deze website. Als je iets ontdekt, mag je een issue loggen op de <a class="gitknop" href="https://github.com/AlleeElias/CSS-Project" target="_blank" rel="noopener noreferrer">githubpagina</a>.
+                </p>
+            </section>
+        </article>
     </body>
     <footer id="footerdiv">
         Hier komt stuff

@@ -4,6 +4,9 @@ body{
     width: 100%;
     margin-top: 25px;
     background-color: gainsboro;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 footer{
     position: fixed;

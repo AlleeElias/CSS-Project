@@ -35,8 +35,8 @@ section{
     color: black;
 }
 .gitknop:hover{
-    background-color: red;
-    color: white;    
+    background-color: gainsboro;
+    color: gray;       
     transition-duration: 1s;
     border-radius: 5px;
     transform: scale(5.0);

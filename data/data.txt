@@ -1,0 +1,20 @@
+    [
+        {
+            "id": 0 ,
+            "titel":"First blog!",
+            "omschrijving":"Beginning of an adventure.",
+            "inhoud":"This is the first blog that will be saved in JSON format!"
+        },
+        {
+            "id": 1 ,
+            "titel":"Tweede blog!",
+            "omschrijving":"Wat is JSON?",
+            "inhoud":"JSON is een hierarchisch dataformaat."
+        },
+        {
+            "id": 2 ,
+            "titel":"Derde blog!",
+            "omschrijving":"Wat is CSS?",
+            "inhoud":"CSS is een manier om HTML op te maken."
+        }
+    ]

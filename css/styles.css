@@ -42,3 +42,23 @@ section{
     transform: scale(5.0);
     font-size: larger;
 }
+.kaartinhoud{
+    display: none;
+}
+.getoondeKaart{
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+.kaartKnop{
+    position: absolute;
+    float: right;
+    top: 25px;
+    right: 25px;
+    background-color: red;
+    border-radius: 5px;
+}

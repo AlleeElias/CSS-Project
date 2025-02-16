@@ -1,20 +1,23 @@
     [
         {
-            "id": 0 ,
+            "id": 1 ,
             "titel":"First blog!",
             "omschrijving":"Beginning of an adventure.",
-            "inhoud":"This is the first blog that will be saved in JSON format!"
-        },
-        {
-            "id": 1 ,
-            "titel":"Tweede blog!",
-            "omschrijving":"Wat is JSON?",
-            "inhoud":"JSON is een hierarchisch dataformaat."
+            "inhoud":"This is the first blog that will be saved in JSON format! Hopefully there are many more to come in the future!",
+            "datum":"20250214"
         },
         {
             "id": 2 ,
-            "titel":"Derde blog!",
-            "omschrijving":"Wat is CSS?",
-            "inhoud":"CSS is een manier om HTML op te maken."
+            "titel":"Second blog!",
+            "omschrijving":"What is JSON?",
+            "inhoud":"JSON is a commonly used dataformat that can easily be saved in all kinds of files and databases.",
+            "datum":"20250215"
+        },
+        {
+            "id": 3 ,
+            "titel":"Third blog!",
+            "omschrijving":"What is CSS?",
+            "inhoud":"CSS is a dataformat that allows styling options to be applied to HTML elements.",
+            "datum": "20250216"
         }
     ]

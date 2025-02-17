@@ -1,0 +1,37 @@
+.kaartinhoud{
+    display: none;
+}
+.getoondeKaart{
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+.kaartKnop{
+    position: absolute;
+    float: right;
+    top: 5px;
+    right: 5px;
+    background-color: white;
+    border-top-right-radius: 25px;
+    height: 25px;
+    width: 30px;
+    min-width: 25px;
+    min-height: 25px;
+    padding-right: 5px;
+}
+.kaartKnop:hover{
+    background-color: darkred;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.voorbeeldKaart{
+    cursor: pointer;
+}
+.voorbeeldFoto{
+    height: 50px;
+    width: 50px;
+}

@@ -1,6 +1,6 @@
-let parsedData;
+let parsedData="";
 let blogHTML = "";
-let actieveBlog;
+let actieveBlog="";
 
 function vulBlogs() {
     fetch('../data/data.txt')
@@ -30,22 +30,11 @@ function voegKaartToe(element) {
     //console.log(element.titel);
     //console.log(element.id);
     blogHTML = blogHTML 
-             + "<section id='kaart" + element.id + "' onmouseenter='toonKaartHover(" + element.id + ")'"
-             + " onmouseleave='verbergKaartHover(" + element.id + ")' onclick='toonKaart(" + element.id + ")'>"
-             + "<h2>" + element.titel + "</h2>"
-             + "<p id='omschrijving" + element.id + "' class='kaartinhoud'>" + element.omschrijving + "</p>"
-             + "<p id='inhoud" + element.id + "' class='kaartinhoud'>" + element.inhoud + "</p>"
+             + "<section class='voorbeeldKaart' id='kaart" + element.id + "' onclick='toonKaart(" + element.id + ")'>"
+             + "<h2 class='kaartTitel'>" + element.titel + "</h2>"
+             + "<image class='voorbeeldFoto' src='" + element.foto + "'</image>"
+             + "<p id='omschrijving" + element.id + "'>" + element.omschrijving + "</p>"
              + "</section>";
-}
-
-function toonKaartHover(id) {
-    //console.log("Kaart getoond");
-    document.getElementById("omschrijving" + id).style.display="block";
-}
-
-function verbergKaartHover(id) {
-    //console.log("Kaart verborgen");
-    document.getElementById("omschrijving" + id).style.display= "none";
 }
 
 function toonKaart(zoekId) {
@@ -53,10 +42,10 @@ function toonKaart(zoekId) {
     actieveBlog = parsedData.find(({id}) => id === zoekId);
     //console.log(actieveBlog);
 
-    document.getElementById("kaartbody").innerHTML = "<div class='getoondeKaart'><h2>" + actieveBlog.titel + "</h2>"
+    document.getElementById("kaartbody").innerHTML = "<section class='getoondeKaart'><h2>" + actieveBlog.titel + "</h2>"
                                                    + "<button class='kaartKnop' onclick='verbergKaart()'>X</button>"
                                                    + "<p>" + actieveBlog.inhoud + "</p>"
-                                                   + "</div>"
+                                                   + "</section>"
 }
 
 function verbergKaart() {

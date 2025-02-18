@@ -3,6 +3,7 @@
             "id": 1 ,
             "titel":"First blog!",
             "omschrijving":"Beginning of an adventure.",
+            "foto":"../img/rdr1.jpg",
             "inhoud":"This is the first blog that will be saved in JSON format! Hopefully there are many more to come in the future!",
             "datum":"20250214"
         },
@@ -10,14 +11,24 @@
             "id": 2 ,
             "titel":"Second blog!",
             "omschrijving":"What is JSON?",
-            "inhoud":"JSON is a commonly used dataformat that can easily be saved in all kinds of files and databases.",
+            "foto":"../img/rdr1.jpg",
+            "inhoud":"JSON is a commonly used dataformat that can easily be saved in all kinds of files and databases. You can even include HTML elements such as a <button>button</button>. Even if it doesn't do anything...",
             "datum":"20250215"
         },
         {
             "id": 3 ,
             "titel":"Third blog!",
             "omschrijving":"What is CSS?",
+            "foto":"../img/rdr1.jpg",
             "inhoud":"CSS is a dataformat that allows styling options to be applied to HTML elements.",
             "datum": "20250216"
+        },
+        {
+            "id": 4 ,
+            "titel":"Pictures on my website???",
+            "omschrijving":"Adding pictures",
+            "foto":"../img/rdr1.jpg",
+            "inhoud":"With this update, I added pictures to my blog page. If everything goes well, you will start seeing some beatiful screenshots that I took. I hope you enjoyed this update!",
+            "datum": "20250217"
         }
     ]

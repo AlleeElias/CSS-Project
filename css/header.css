@@ -3,17 +3,18 @@ header{
     max-width: 100%;
     width: 100%;
     margin-right: 25px;
-    background-color: gray;
+    background-color: black;
     position: fixed;
     left: 0;
     top: 0;
     font-size: large;
-    padding-bottom: 5px;
-    max-height: 25px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    max-height: 15%;
 }
 .headertitle{
-    color: black;
-    background-color: gray;
+    color: white;
+    background-color: black;
     text-align: center;
     float: left;
     padding-left: 25px;
@@ -24,11 +25,12 @@ header{
     display: flex;
 }
 .headerlist a{
-    color: black;
-    background-color: gray;
+    color: white;
+    background-color: black;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 5px;
+    padding-bottom: 5px;
     text-decoration: none;
     font-size: large;
 }

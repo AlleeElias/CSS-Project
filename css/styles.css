@@ -2,7 +2,7 @@ body{
     margin: auto;
     text-align: center;
     width: 100%;
-    margin-top: 25px;
+    margin-top: 50px;
     background-color: gainsboro;
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
@@ -13,8 +13,8 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: gray;
-    color: black;
+    background-color: black;
+    color: white;
     text-align: center;
 }
 .articlegrid{
@@ -22,49 +22,44 @@ footer{
     grid-template-columns: 30% 30% 30%;
     justify-content: center;
 }
-section{
+.articlegrid section{
     margin: 15px;
-    background-color: azure;
-    border-radius: 15;
+    background-color: white;
+    border-radius: 25px;
+}
+section h2{
+    background-color: black;
+    margin-top: 0;
+    color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+article h2{
+    background-color: black;
+    margin-top: 0;
+    color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .fullcol{
     grid-column: 1 / -1;
 }
-.gitknop{
-    text-decoration: none;
-    color: black;
-}
-.gitknop:hover{
-    background-color: gainsboro;
-    color: gray;       
+.gitknop:hover{    
     transition-duration: 1s;
     border-radius: 5px;
     transform: scale(5.0);
     font-size: larger;
-}
-.kaartinhoud{
-    display: none;
-}
-.getoondeKaart{
-    position: fixed;
-    top: 25%;
-    left: 25%;
-    width: 50%;
-    height: 50%;
-    background-color: aliceblue;
-    border-radius: 25px;
-}
-.kaartKnop{
-    position: absolute;
-    float: right;
-    top: 25px;
-    right: 25px;
-    background-color: red;
-    border-radius: 5px;
 }
 button{
     border-radius: 5px;
     background-color: lightgrey;
     color: black;
     border-width: 2px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
 }

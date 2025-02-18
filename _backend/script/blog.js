@@ -3,7 +3,7 @@ let blogHTML = "";
 let actieveBlog="";
 
 function vulBlogs() {
-    fetch('../data/data.txt')
+    fetch('../_backend/data/data.txt')
     .then(res => res.text())
     .then(res => parseJSON(res));
 }
